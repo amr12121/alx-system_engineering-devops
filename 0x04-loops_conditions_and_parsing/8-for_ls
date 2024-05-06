@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+for c in *
+do
+    echo "$c" | cut -d'-' -f2
+done
