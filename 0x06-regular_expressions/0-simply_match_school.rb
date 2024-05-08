@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
-def matchSchool(input)
-    reg = /School/
+def match_school(input)
+    regex = /School/
 
-    result = input.match(reg)
+    result = input.match(regex)
 
     puts result ? result[0] : ''
 end
